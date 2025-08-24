@@ -1,13 +1,33 @@
 @import "variables";
 
 .bar-hover{
-    transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease-out;
+}
+
+.notification-hover{
+  transition: background-color 0.3s ease-out;
+}
+
+.user-hover{
+  transition: background-color 0.3s ease-out;
 }
 
 .bar-hover:hover{
-    background-color: $darkblue;
+  background-color: $darkblue;
+}
+
+.notification-hover:hover{
+  background-color: $semidarkblue;
+}
+
+.user-hover:hover{
+  background-color: $semidarkblue;
 }
 
 .sidebar-animation {
-  transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-out;
+}
+
+.cursor-pointer{
+  cursor: pointer;
 }

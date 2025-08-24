@@ -2,12 +2,13 @@
 @import "fonts";
 
 // Font Variables
-$font-family-sans-serif: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+$font-family-sans-serif: "HelveticaNeue", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 $headings-font-family: "Montserrat";
 $font-family-monospace: "Source Sans Pro", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 
 // ADZU Formation Color Theme
 $blue: #02327A;
+$semidarkblue: #022d6e;
 $darkblue: #011C47;
 $white1: #ffffff;
 $white2: #EBEFF4; 
@@ -17,7 +18,20 @@ $gray3: #1A2226;
 $green: #0A8043;
 $cyan: #00C0EF;
 $yellow: #DAA520;
+$yellowgray: #999999;
 $lightgray: #88A2AD;
 $red: #dd4a39;
 $dark: #212529;
 $light: #f8f9fa;
+
+$accordion-button-focus-border-color:     none; // Deprecated in v5.3.3
+$accordion-button-focus-box-shadow:       none;
+
+$accordion-icon-width:                    0.8rem;
+$accordion-icon-color:                    $light;
+$accordion-icon-active-color:             $light;
+$accordion-icon-transition:               transform .2s ease-in-out;
+$accordion-icon-transform:                rotate(90deg);
+
+$accordion-button-icon:         url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='#{$light}' stroke-linecap='round' stroke-linejoin='round'><path d='m2 5 6 6 6-6'/></svg>");
+$accordion-button-active-icon:  url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='#{$light}' stroke-linecap='round' stroke-linejoin='round'><path d='m2 5 6 6 6-6'/></svg>");
