@@ -12,6 +12,10 @@
   transition: background-color 0.3s ease-out;
 }
 
+.recordlist-hover:hover{
+  color: $light !important;
+}
+
 .bar-hover:hover{
   background-color: $darkblue;
 }
@@ -30,4 +34,17 @@
 
 .cursor-pointer{
   cursor: pointer;
+}
+
+.custom-half-width {
+  width: 4.16667% !important;
+}
+
+.fill-remaining-space {
+  width: 95.83333% !important;
+}
+
+.navigation-hover:hover {
+  box-shadow: inset 3px 0 0 0 $blue !important;
+  filter: brightness(90%) !important;
 }

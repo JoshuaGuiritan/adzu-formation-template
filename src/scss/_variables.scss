@@ -24,7 +24,29 @@ $red: #dd4a39;
 $dark: #212529;
 $light: #f8f9fa;
 
-$accordion-button-focus-border-color:     none; // Deprecated in v5.3.3
+// Add Theme Colors to Bootstrap
+$theme-colors: (
+    "blue": $blue,
+    "semidarkblue": $semidarkblue,
+    "darkblue": $darkblue,
+    "white1": $white1,
+    "white2": $white2,
+    "gray1": $gray1,
+    "gray2": $gray2,
+    "gray3": $gray3,
+    "green": $green,
+    "cyan": $cyan,
+    "yellow": $yellow,
+    "yellowgray": $yellowgray,
+    "lightgray": $lightgray,
+    "red": $red,
+    "dark": $dark,
+    "light": $light,
+);
+
+// Accordion Variables
+
+$accordion-button-focus-border-color:     none;
 $accordion-button-focus-box-shadow:       none;
 
 $accordion-icon-width:                    0.8rem;
