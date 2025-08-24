@@ -1,0 +1,26 @@
+// Import _variable.scss
+@import "variables";
+@import "custom-css";
+
+// Add Theme Colors to Bootstrap
+$theme-colors: (
+    "blue": $blue,
+    "darkblue": $darkblue,
+    "white1": $white1,
+    "white2": $white2,
+    "gray1": $gray1,
+    "gray2": $gray2,
+    "gray3": $gray3,
+    "green": $green,
+    "cyan": $cyan,
+    "yellow": $yellow,
+    "lightgray": $lightgray,
+    "red": $red,
+    "dark": $dark,
+    "light": $light,
+);
+
+
+
+// Bootstrap Source
+@import "../../node_modules/bootstrap/scss/bootstrap";
