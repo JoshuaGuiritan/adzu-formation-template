@@ -15,14 +15,14 @@ const SystemUI = () => {
     return(
       <div className="d-flex flex-column vh-100">
         <div className="row g-0">
-          <div className={`${sidebar ? "col-lg-1 custom-half-width" : "col-lg-2"} sidebar-animation bg-darkblue text-white py-3 fs-4 fw-bold d-flex justify-content-center align-items-center col-12`}>
+          <div className={`${sidebar ? "col-lg-1 custom-half-width" : "col-lg-2"} sidebar-animation bg-darkblue text-white py-lg-3 py-2 fs-4 fw-bold d-flex justify-content-center align-items-center col-12`}>
             { sidebar ? <FontAwesomeIcon icon="fa-solid fa-graduation-cap" className="fs-4"/> : <img src="./Images/adzu-header-final.png" style={{height: '24px'}}/>}
           </div>
           <div className={`${sidebar ? "col-lg-11 fill-remaining-space" : "col-lg-10"} sidebar-animation bg-blue d-flex justify-content-between align-items-center col-12`}>
             <button className="bar-hover d-lg-block d-none border-0 h-100 px-3 d-flex justify-content-between align-items-center cursor-pointer" role="button" onClick={hoverSideBar}>
               <FontAwesomeIcon icon="fa-solid fa-bars" className="text-white1 fs-6" />
             </button>
-            <button className="bar-hover py-4 d-lg-none d-block border-0 h-100 px-3 d-flex justify-content-between align-items-center cursor-pointer" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+            <button className="bar-hover py-3 d-lg-none d-block border-0 h-100 px-3 d-flex justify-content-between align-items-center cursor-pointer" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
               <FontAwesomeIcon icon="fa-solid fa-bars" className="text-white1 fs-6" />
             </button>
             <div className="text-white1 fs-6 d-flex h-100 d-flex align-items-center cursor-pointer">
