@@ -56,3 +56,17 @@ $accordion-icon-transform:                rotate(90deg);
 
 $accordion-button-icon:         url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='#{$light}' stroke-linecap='round' stroke-linejoin='round'><path d='m2 5 6 6 6-6'/></svg>");
 $accordion-button-active-icon:  url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='#{$light}' stroke-linecap='round' stroke-linejoin='round'><path d='m2 5 6 6 6-6'/></svg>");
+
+$btn-close-width:            0.7em;
+$btn-close-height:           0.7em;
+$btn-close-padding-x:        .25em;
+$btn-close-padding-y:        $btn-close-padding-x;
+$btn-close-color:            $light;
+$btn-close-bg:               url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#{$light}'><path d='M.293.293a1 1 0 0 1 1.414 0L8 6.586 14.293.293a1 1 0 1 1 1.414 1.414L9.414 8l6.293 6.293a1 1 0 0 1-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 0 1-1.414-1.414L6.586 8 .293 1.707a1 1 0 0 1 0-1.414'/></svg>");
+$btn-close-focus-shadow:     none;
+$btn-close-opacity:          1;
+$btn-close-hover-opacity:    .75;
+$btn-close-focus-opacity:    1;
+$btn-close-disabled-opacity: .25;
+$btn-close-filter:           null;
+$btn-close-white-filter:     $light;
