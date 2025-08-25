@@ -4,8 +4,12 @@
   color: $light !important;
 }
 
+.bar-hover{
+  background-color: $blue !important;
+}
+
 .bar-hover:hover{
-  background-color: $darkblue;
+  background-color: $darkblue !important;
 }
 
 .notification-hover:hover{
